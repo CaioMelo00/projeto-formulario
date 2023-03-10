@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/65/9c/6f/659c6f3a1f1614d833ba197ff7032151.jpg");
+    font-family: monospace;
+    font-size: 16px;
+    color: #ffffff;
+}
+  
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+} 
+  
+form {
+    margin: 0 auto;
+    background-color: #696969cc;
+    max-width: 700px;
+    min-width: 300px;
+    padding-bottom: 1em;
+}
+  
+fieldset {
+    border: none;
+}
+  
+  
+label {
+    display: block;
+    margin: 0.5rem 0; 
+}
+  
+input, textarea, select {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+  
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+}
+  
+input[type="submit"] {
+      display: block;
+      border: 1px solid black;
+      width: 60%;
+      margin: 1em auto;
+      height: 2em;
+      font-size: 1.1rem;
+      background-color: rgb(175, 175, 175);
+      max-width: 400px;
+      min-width: 200px;
+      color: #ffffff;
+}
